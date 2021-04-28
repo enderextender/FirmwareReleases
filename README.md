@@ -14,12 +14,12 @@ ENDER EXTENDER DOES NOT PROVIDE SUPPORT FOR COMPILING OR USING FIRMWARE
 This is a Do It Yourself hobby and sometimes that is what you need to do.  Please consult Youtube or Google
 for tutorials on how to install the compiler software, make changes to the code, and upload the files to your control board.
 
-We have only provided .bin files that work with 32 bit boards.  Uploading firmware to 8 bit stock boards requires additional tools and skills.  
-We believe that upgrading from the 8 bit stock boards is the best course of action.
+We have only provided .bin files that work with 32 bit boards.  Uploading firmware to 8 bit stock boards requires additional tools and skills.  We believe that upgrading from the 8 bit stock boards is the best course of action.
 
 Each manufacturer creates a different set of rules for firmware.bin file naming conventions
 
 Bigtreetech
+
 File should be named firmware.bin
 Download your desired file, rename it to firmware.bin and copy it to an SD card.
 
