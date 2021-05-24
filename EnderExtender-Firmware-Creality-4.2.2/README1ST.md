@@ -1,24 +1,13 @@
 Only for Creality 4.2.2 boards as found in Ender 3 V2, Ender Extender V2 400XL, 400x400x500
 
-You could also use this on a 400x400x250 Ender Extender.  Just be aware it won't stop going up at 250 if you tell it to higher :)
+This firmware was compiled from Jyer's firmware github.  Many thanks to all his hard work.  This is a big improvement over stock!
 
-There are two bin files in this directory
+You must update the LCD firmware!
 
-firmware-20210319-135747-IIC_BL24CXX_EEPROM.bin
-firmware-20210319-135837-SDCARD_EEPROM_EMULATION.bin
+Read the full instructions at github
+https://github.com/Jyers/Marlin/tree/Ender_3_V2_Extensible_UI/Display%20firmware
 
-On our test system, Creality 4.2.2 board in V2 the firmware firmware-20210319-135747-IIC_BL24CXX_EEPROM.bin
-works but the mesh from auto levelling is not used when printing, thus it's unknown where 
-the system is saving the mesh when you use store settings.  I can't get a straight answer from Marlin devs
-so I am providing two versions.  
 
-The SD Card emulation firmware writes an EEPROM.DAT file to the SD Card, this is where the mesh data is stored when Marlin does not detect an Eeprom chip on the control board. Actually this was the default from factory for Creality.
-
-When we print a test file with the sd card emulation, the auto level mesh data is used and the tilt of the bed is compensated.  When we use the IIC version, it is not.  So your mileage may vary.  Try both and do a test print.
-
-Also, we have enabled Restore mesh after G28, so you do not really need M420 S1 in your gcode unless you want to customize it, like having it fade the compensation out after specific Z height (M420 S1 Z2 ...)
-
-Always store settings (Control menu) after using Auto Level, as it does not automatically save the mesh data.
 
 Instructions:
 
@@ -33,3 +22,7 @@ Step 6: Turn off the printer. Remove SD Card. Reassemble and remount the LCD dis
 Step 7: Insert SD card into printer.  
 Step 8: Turn on printer
 Step 9: Test
+
+The file names indicate some portion of the configuration.
+
+Specifically, bltouch has 5 pins, 3 for the servo, 2 for the trigger pin.  Some people like to use the Z endstop port on their board to connect the BLTouch.  This configuration is called bltouch-zmin.  If you're using a standard 5 pin bltouch connector, use bltouch-5pin-port.
