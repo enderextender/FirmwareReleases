@@ -1,11 +1,10 @@
-Compiled for Creality 4.2.7 board with BLTouch 5 pin connected to BLTouch port
+Compiled for Creality 4.2.7 board.
 
-For models 300 and 300XL, use the 300XL file
-For models 400 and 400XL, use the 400XL file
+Bltouch variants use the BLTouch 5 pin connected to BLTouch port
 
 For printers without BLTouch, use the nobltouch equivelant file
 
-Must also update the LCD
+For the V2 with the color LCD non touch screen, you must also update the LCD.  Others can skip this.
 
 Unmount the lcd
 Remove back cover
