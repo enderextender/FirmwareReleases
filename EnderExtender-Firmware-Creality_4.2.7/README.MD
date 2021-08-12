@@ -4,6 +4,8 @@ Bltouch variants use the BLTouch 5 pin connected to BLTouch port
 
 For printers without BLTouch, use the nobltouch equivelant file
 
+FOR THE ENDER 3 MAX, skip the lcd portion
+
 For the V2 with the color LCD non touch screen, you must also update the LCD.  Others can skip this.
 
 Unmount the lcd
