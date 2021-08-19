@@ -1,5 +1,14 @@
 Only for Creality 4.2.2 boards as found in Ender 3 V2, Ender Extender V2 400XL, 400x400x500
 
+WARNING:  Creality boards can be sensitive to SD card variations in size and allocation bytes.  
+Before you start, please make sure you format the SD card using Windows Explorer for FAT32, 4096 Allocation units, for a size of no more than 8 gigabytes.  
+We've even had to repartition an SD card to 4 gigabytes (Using the Windows Disk Manager app) then format it to Fat32, 4096 allocation units.  In our test, the 
+printer was showing a blue screen.
+
+ENDER EXTENDER DOES NOT PROVIDE SUPPORT FOR COMPILING OR USING FIRMWARE
+
+ENDER EXTENDER IS NOT RESPONSIBLE FOR FIRMWARE ISSUES, AND DOES NOT WARRANTY THIS FIRMWARE TO BE USABLE FOR ANY PURPOSE.. USE AT YOUR OWN RISK.
+
 This firmware was compiled from Jyer's firmware github.  Many thanks to all his hard work.  This is a big improvement over stock!
 
 You must update the LCD firmware!
