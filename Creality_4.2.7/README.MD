@@ -13,3 +13,4 @@ otherwise it will not.
 Example:
 firmware_E400XL_CREALITY_427_COLORLCD_BLTOUCH_ZMIN.bin
 - 400 XL for Creality 4.2.7 board with Color LCD and the BLTouch plugged into Zmin port.
+For the LCD Screen on V2 printers you need to copy the DWIN_SET folder to an sdcard, remove the back of the lcd cover, and insert the sd card into the slot then power on your printer.  The screen will turn blue then orange/red, turn off the printer, remove the LCD and put the cover back on, etc.
