@@ -1,9 +1,18 @@
 Compiled for Creality 4.2.2 board.
 
-We have decided to discontinue providing our own firmware for the Ender 3V2 and Ender S1.  
+ENDER EXTENDER IS NOT RESPONSIBLE FOR FIRMWARE ISSUES, AND DOES NOT WARRANTY THIS FIRMWARE TO BE USABLE FOR ANY PURPOSE.. USE AT YOUR OWN RISK.
+ENDER EXTENDER DOES NOT PROVIDE SUPPORT FOR COMPILING OR USING FIRMWARE
 
-Please follow this link to the "Professional Firmware" resource page.  This is maintained by Miguel Risco-Castillo.  The firmware supports an enhanced set of features including the ability to set the physical printer dimensions from the LCD screen (Advanced Physical Settings)
+Naming conventions used:
 
-https://github.com/mriscoc/Ender3V2S1/releases
+E<Size/Type>_CREALITY_422_<COLORLCD?>_<BLTOUCH?>_<ZMIN?>.bin
+  If using color LCD (V2 style), the firmware will have COLORLCD in the name,
+otherwise it will not.
+  If using BLTOUCH, it will have BLTOUCH in the name.  If you have the BLTouch two pin connector connected to your ZMin port, use the one with ZMIN in the name.  
 
-Scroll to the bottom of the above link and look for a list of Firmware files.  Read the release notes for more information.  Essentially if you have a BLTouch or CRTouch you probably want to go with the BLT-UBL variant.  if you do not, then select the 422MM variant for V2 printers running a 4.22 board.
+Example:
+firmware_E400XL_CREALITY_422_COLORLCD_BLTOUCH_ZMIN.bin
+- 400 XL for Creality 4.2.2 board with Color LCD and the BLTouch plugged into Zmin port.
+
+For the LCD Screen on V2 printers you need to download the DWIN_SET.zip file and unzip it to an sdcard, remove the back of the lcd cover, and insert the sd card into the slot then power on your printer.  The screen will turn blue then orange/red, turn off the printer, remove the LCD and put the cover back on, etc.
+
