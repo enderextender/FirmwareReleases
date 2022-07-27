@@ -1,3 +1,7 @@
+Using a Creality Touch screen or Creality Color LCD (S1/V2), perhaps check out the "Professional Firmware" Project.  This alternative build of marlin allows you to set printer size options from the LCD and has several other advanced configuration and bed tramming features not contained in the base marlin builds.
+
+https://github.com/mriscoc/Ender3V2S1/releases
+
 Compiled for Creality 4.2.7 board.
 
 ENDER EXTENDER IS NOT RESPONSIBLE FOR FIRMWARE ISSUES, AND DOES NOT WARRANTY THIS FIRMWARE TO BE USABLE FOR ANY PURPOSE.. USE AT YOUR OWN RISK.
